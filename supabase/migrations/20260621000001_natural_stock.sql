@@ -1,0 +1,28 @@
+-- Make stock values look like real inventory levels, not nice round numbers
+UPDATE public.medications SET stock = 247 WHERE name = 'Paracetamol 500mg';
+UPDATE public.medications SET stock = 183 WHERE name = 'Ibuprofen 400mg';
+UPDATE public.medications SET stock = 58  WHERE name = 'Amoxicillin 500mg';
+UPDATE public.medications SET stock = 143 WHERE name = 'Cetirizine 10mg';
+UPDATE public.medications SET stock = 87  WHERE name = 'Omeprazole 20mg';
+UPDATE public.medications SET stock = 312 WHERE name = 'Vitamin D3 1000 IU';
+UPDATE public.medications SET stock = 42  WHERE name = 'Salbutamol Inhaler';
+UPDATE public.medications SET stock = 157 WHERE name = 'Loratadine 10mg';
+UPDATE public.medications SET stock = 114 WHERE name = 'Cough Syrup 200ml';
+UPDATE public.medications SET stock = 396 WHERE name = 'Hand Sanitizer 250ml';
+UPDATE public.medications SET stock = 224 WHERE name = 'Multivitamin Adults';
+UPDATE public.medications SET stock = 28  WHERE name = 'Insulin Glargine';
+UPDATE public.medications SET stock = 118 WHERE name = 'Naproxen 250mg';
+UPDATE public.medications SET stock = 196 WHERE name = 'Aspirin 500mg';
+UPDATE public.medications SET stock = 173 WHERE name = 'Panadol 665mg';
+UPDATE public.medications SET stock = 88  WHERE name = 'Diclofenac Gel 1%';
+UPDATE public.medications SET stock = 147 WHERE name = 'Cold & Flu Tablets';
+UPDATE public.medications SET stock = 203 WHERE name = 'Nasal Spray Xylometazoline';
+UPDATE public.medications SET stock = 127 WHERE name = 'Echinacea Drops';
+UPDATE public.medications SET stock = 178 WHERE name = 'Baby Paracetamol 125mg';
+UPDATE public.medications SET stock = 218 WHERE name = 'Nappy Rash Cream';
+UPDATE public.medications SET stock = 159 WHERE name = 'Baby Multivitamin Drops';
+UPDATE public.medications SET stock = 97  WHERE name = 'Pregnancy Multivitamin';
+UPDATE public.medications SET stock = 139 WHERE name = 'Wound Healing Ointment';
+UPDATE public.medications SET stock = 108 WHERE name = 'Hydrocortisone Cream 1%';
+UPDATE public.medications SET stock = 92  WHERE name = 'Burn Relief Gel';
+UPDATE public.medications SET stock = 199 WHERE name = 'Zinc Oxide Ointment';
